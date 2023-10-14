@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&family=Raleway:wght@800&display=swap');
+
+body{
+    /* background: #011369; */
+    /* background: hotpink; */
+    background: wheat;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    background: #011369;
+    margin-top: 20%;
+    /* border: 1px solid red; */
+  }
+
+  #accordionFlushExample{
+    margin-top: 10%;
+  }
+  
+  .container{
+     padding: 0;
+     margin: 1em auto 0;
+     width: 100%;
+     max-width: 100%;
+  }
+
+  .para {
+    color: #000;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .h{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+
+  @media (max-width: 858px) {
+    footer{
+      display: block;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    }
+
+    @media (max-width: 952px) {
+        .links {
+            text-decoration: none;
+            list-style: none;
+            margin-bottom: 1em;
+          }
+        footer{
+          display: block;
+          flex-direction: column;
+          justify-content: space-evenly;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .links {
+            text-decoration: none;
+            list-style: none;
+            margin-bottom: 1em;
+          }
+          footer{
+            display: block;
+            flex-direction: column;
+            justify-content: space-evenly;
+          }
+        }
