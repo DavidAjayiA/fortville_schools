@@ -65,6 +65,8 @@
     margin-top: .8em;
   }
 
+ 
+
   .img-div:hover{
     transform: scale(1.1);
     opacity: 1;
@@ -118,6 +120,11 @@ footer {
     cursor: pointer;
     transition: 1s;
   }
+  .text,
+  .text_extra{
+    font-weight: bold;
+    font-size: .9em;
+  }
     }
 
     @media (max-width: 952px) {
@@ -146,6 +153,11 @@ footer {
           max-width: 100%;
           margin-top: 1em;
           border-radius: 2px;
+        }
+        .text,
+        .text_extra{
+          font-weight: bold;
+          font-size: .9em;
         }
       
         .img:hover{
@@ -190,4 +202,58 @@ footer {
             cursor: pointer;
             transition: 1s;
           }
+          .text,
+          .text_extra{
+            font-weight: bold;
+            font-size: .9em;
+          }
+          
         }
+
+        
+    @media (max-width: 330px) {
+      .links {
+          text-decoration: none;
+          list-style: none;
+          margin-bottom: 1em;
+        }
+        footer{
+          display: block;
+          flex-direction: column;
+          justify-content: space-evenly;
+        }
+        .first_batch,
+        .second_batch,
+        .third_batch,
+        .fourth_batch,
+        .fifth_batch,
+        .sixth_batch {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1em;
+          align-items: center;
+        }
+        .img{
+          max-width: 100%;
+          margin-top: 1em;
+          border-radius: 2px;
+        }
+      
+        .img:hover{
+          transform: scale(1.1);
+          opacity: 1;
+          cursor: pointer;
+          transition: 1s;
+        }
+        .text_extra{
+          margin-top: .8em;
+          font-weight: bold;
+          font-size: .8em;
+          /* border: 1px solid red; */
+        }
+        .text{
+          font-weight: bold;
+        }
+      }
+
+       

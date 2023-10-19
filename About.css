@@ -116,3 +116,26 @@ footer {
     margin-top: 20%;
   }
 }
+
+@media (max-width: 330px) {
+  .links {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 1em;
+  }
+  footer {
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .para {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 2.8em;
+  }
+  #accordionFlushExample {
+    margin-top: 20%;
+  }
+}

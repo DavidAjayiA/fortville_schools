@@ -182,6 +182,103 @@ body {
 }
 
 
+@media (max-width: 328px){
+  footer {
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .links {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 1em;
+  }
+
+  .motto {
+    margin-bottom: 1em;
+  }
+  .h {
+    color: #4418c5;
+  }
+
+  div.container-fluid .school-logo {
+    width: 20%;
+  }
+
+  .welcome {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    /* border: 1px solid red; */
+  }
+
+  p.para {
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+
+  header{
+    padding: .1em;
+  }
+
+
+  div.hero-text {
+    margin-left: 1em;
+    width: 100%;
+    padding: 1em;
+  }
+
+  div.hero-text h1 {
+    font-size: 3.5rem;
+    text-shadow: 6px 6px 6px black;
+  }
+
+  div.hero-text p {
+    font-size: 1.2rem;
+    text-shadow: 6px 6px 6px black;
+  }
+
+  section.first-section {
+    padding: 1.5em;
+    margin-top: 3em;
+  }
+
+  /* section.first-section .first-section-first-para {
+    letter-spacing: 0.1em;
+    font-size: .2em;
+  } */
+
+  section.first-section p.fort{
+    /* border: 1px solid red; */
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  section.first-section div h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+  }
+  section.first-section .first-section-second-para {
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+  }
+  .img {
+    /* border: 3px solid green; */
+    display: none;
+  }
+
+  header {
+    margin-bottom: -1em;
+  }
+
+  div.parallax2 div.visions {
+    font-size: 1.6rem;
+  }
+}
+
+
 @media (max-width: 500px) {
   footer {
     display: block;
@@ -249,7 +346,7 @@ body {
     /* border: 1px solid red; */
   }
   .img {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     display: none;
   }
 
